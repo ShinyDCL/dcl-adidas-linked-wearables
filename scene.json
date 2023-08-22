@@ -1,34 +1,41 @@
 {
-  "display": {
-    "title": "Adidas Linked Wearables",
-    "description": "Scene displaying Adidas Virtual Gear - Genesis Collection linked wearables on NPC avatars",
-    "navmapThumbnail": "images/scene-thumbnail.png",
-    "favicon": "favicon_asset"
-  },
-  "owner": "",
-  "contact": {
-    "name": "ShinyDCL",
-    "email": "citrons915@gmail.com"
-  },
-  "main": "bin/game.js",
-  "tags": [],
-  "scene": {
-    "parcels": [
-      "0,0"
-    ],
-    "base": "0,0"
-  },
-  "spawnPoints": [
-    {
-      "name": "spawn1",
-      "default": true,
-      "position": {
-        "x": 0,
-        "y": 0,
-        "z": 0
-      }
-    }
-  ],
-  "requiredPermissions": [],
-  "featureToggles": {}
+	"ecs7": true,
+	"runtimeVersion": "7",
+	"display": {
+		"title": "Adidas Linked Wearables",
+		"description": "Scene displaying Adidas Virtual Gear - Genesis Collection linked wearables on NPC avatars",
+		"navmapThumbnail": "images/scene-thumbnail.jpg",
+		"favicon": "favicon_asset"
+	},
+	"owner": "ShinyDCL",
+	"contact": {
+		"name": "ShinyDCL",
+		"email": "citrons915@gmail.com"
+	},
+	"main": "bin/index.js",
+	"tags": [],
+	"scene": {
+		"parcels": [
+			"0,0"
+		],
+		"base": "0,0"
+	},
+	"spawnPoints": [
+		{
+			"name": "spawn1",
+			"default": true,
+			"position": {
+				"x": 8,
+				"y": 0,
+				"z": 8
+			},
+			"cameraTarget": {
+				"x": 8,
+				"y": 1,
+				"z": 4
+			}
+		}
+	],
+	"requiredPermissions": [],
+	"featureToggles": {}
 }
